@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Fraunces-700";
+    src: url(../fonts/Fraunces_72pt-Bold.ttf);
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fraunces-900";
+    src: url(../fonts/Fraunces_72pt-Black.ttf);
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url(../fonts/Barlow-SemiBold.ttf);
+    font-weight: 600;
+    font-display: swap;
+}
