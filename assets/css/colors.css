@@ -1,15 +1,17 @@
 :root {
-  --red-400: rgba(254, 121, 103, 0.200);
-  --yellow-500: rgba(250, 212, 0, 0.200);
+  --red-400: rgba(254, 121, 103, 0.2);
+  --red-400-raw: rgba(254, 121, 103);
+  --yellow-500: rgba(250, 212, 0, 0.2);
   --yellow-500-raw: rgb(253, 231, 103);
-  --green-800: rgba(37, 86, 75, 0.800); /* (graphic design text) */
-  --blue-800: rgba(25, 82, 107, 0.800); /* (photography text) */
+  --green-800: rgba(37, 86, 75, 0.8); /* (graphic design text) */
+  --blue-800: rgba(25, 82, 107, 0.8); /* (photography text) */
   --green-500: #458c7d; /* (footer) */
-  --green-500-lighter: rgba(69, 140, 125, 0.600); /* (footer) */
+  --green-500-lighter: rgba(69, 140, 125, 0.6); /* (footer) */
 
   --grey-950: hsl(212, 27%, 19%);
   --grey-600: hsl(213, 9%, 39%);
   --grey-550: hsl(232, 10%, 55%);
   --grey-400: hsl(210, 4%, 67%);
-  --white: hsl(0, 100%, 100%);
+  --white: rgb(255, 255, 255);
+  --white-transparent: rgba(255, 255, 255, 0.2);
 }

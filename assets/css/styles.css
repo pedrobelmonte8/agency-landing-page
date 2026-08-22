@@ -64,7 +64,7 @@ nav a.contact-link {
   background: var(--white);
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
-.container__corner-box.open{
+.container__corner-box.open {
   display: flex;
 }
 @media (min-width: 675px) {
@@ -80,13 +80,21 @@ nav a.contact-link {
   nav.nav-desktop a.contact-link {
     color: var(--grey-950);
     background-color: var(--white);
+    transition:
+      color 0.3s ease,
+      background 0.3s ease;
+  }
+
+  nav.nav-desktop a.contact-link:hover {
+    background-color: var(--white-transparent);
+    color: var(--white);
   }
   nav.nav-mobile.open {
     display: none;
   }
-  .container__corner-box.open{
-  display: none;
-}
+  .container__corner-box.open {
+    display: none;
+  }
   .hamburguer-icon {
     display: none;
   }
@@ -160,13 +168,24 @@ header .bottom-header img {
   background-image: url(../images/mobile/image-transform.jpg);
 }
 .feature-1 .feature__more-info {
+  cursor: pointer;
   text-decoration-color: var(--yellow-500);
+  transition: text-decoration-color 0.3s ease;
+}
+.feature-1 .feature__more-info:hover {
+  text-decoration-color: var(--yellow-500-raw);
 }
 .feature-2.feature__img {
   background-image: url(../images/mobile/image-stand-out.jpg);
 }
 .feature-2 .feature__more-info {
+  cursor: pointer;
   text-decoration-color: var(--red-400);
+  transition: text-decoration-color 0.3s ease;
+}
+
+.feature-2 .feature__more-info:hover {
+  text-decoration-color: var(--red-400-raw);
 }
 
 .feature__tittle {
@@ -377,6 +396,7 @@ footer {
 .about-links a {
   text-decoration: none;
   color: #2c7566;
+  transition: color 0.3s ease;
 }
 .social-links {
   display: flex;
@@ -384,5 +404,16 @@ footer {
   gap: 2rem;
   align-items: center;
 }
-.footer__logo {
+
+.about-links a:hover {
+  color: var(--white);
+}
+
+.social-links a svg {
+  fill: #2c7566;
+  transition: fill 0.3s ease;
+}
+
+.social-links a svg:hover {
+  fill: var(--white);
 }
