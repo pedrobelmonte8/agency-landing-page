@@ -1,6 +1,7 @@
 :root {
   --red-400: rgba(254, 121, 103, 0.200);
   --yellow-500: rgba(250, 212, 0, 0.200);
+  --yellow-500-raw: rgb(253, 231, 103);
   --green-800: rgba(37, 86, 75, 0.800); /* (graphic design text) */
   --blue-800: rgba(25, 82, 107, 0.800); /* (photography text) */
   --green-500: #458c7d; /* (footer) */
