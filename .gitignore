@@ -40,6 +40,9 @@ npm-debug.log*
 Thumbs.db
 
 
-*.md
+AGENTS.md
+CLAUDE.md
+README-template.md
+style-guide.md
 /design/*
 preview.jpg
