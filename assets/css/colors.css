@@ -3,7 +3,8 @@
   --yellow-500: rgba(250, 212, 0, 0.200);
   --green-800: rgba(37, 86, 75, 0.800); /* (graphic design text) */
   --blue-800: rgba(25, 82, 107, 0.800); /* (photography text) */
-  --green-500: hsl(167, 34%, 41%); /* (footer) */
+  --green-500: #458c7d; /* (footer) */
+  --green-500-lighter: rgba(69, 140, 125, 0.600); /* (footer) */
 
   --grey-950: hsl(212, 27%, 19%);
   --grey-600: hsl(213, 9%, 39%);
